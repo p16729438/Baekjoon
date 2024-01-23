@@ -23,7 +23,7 @@ public class Main {
                     farm[x][y] = true;
                 }
                 boolean[][] visited = new boolean[M][N];
-                System.out.println(solveWithBFS(farm, visited));
+                System.out.println(solveWithDFS(farm, visited));
             }
             r.close();
         } catch (IOException e) {
